@@ -12,6 +12,6 @@ BOT_NAME = 'opensecrets'
 
 SPIDER_MODULES = ['opensecrets.spiders']
 NEWSPIDER_MODULE = 'opensecrets.spiders'
-
+ITEM_PIPELINES={'opensecrets.pipelines.OpensecretsPipeline'}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'opensecrets (+http://www.yourdomain.com)'
