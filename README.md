@@ -88,7 +88,7 @@ $ source venv/bin/activate
 This brings up a different prompt indicating you are operating in the venv. To generate data: 
 
 ```
-$ scrapy crawl comittees -o FILEOUTPUT.json
+$ scrapy crawl comittees -o FILEOUTPUT.csv
 
 ```
 
